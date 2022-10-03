@@ -41,7 +41,7 @@ Classes for user interactions and any services for interacting with the Business
 
 #### 2.2.2. DataAccess ("persistence" layer)
 
-Classes for reading/writing from the CSV files and any services for interacting with the BusinessLogic core. Currently this includes a DTO class and adapters (repositories?) for converting data in different CSVs into a universal DTO that is used to build the BusinessLogic layer's model properties.
+Classes for reading/writing from the CSV files and any services for interacting with the BusinessLogic core. Currently this includes a DTO class and adapters for converting data in different CSVs into a universal DTO that is used to build the BusinessLogic layer's model properties. Currently adapters are injected into a systemwide ("infrastructure", see below) DataAccessService class, which is perhaps better repackaged as a repository?
 
 #### 2.2.3. Testing
 
@@ -49,5 +49,5 @@ Contains a test service file for testing the domain's classes and methods.
 
 ## 3. Infrastructure
 
-This folder contains any "horizontal" cross-domain interfaces or services that are not restricted to a single domain.
+This folder contains any "horizontal" cross-domain / systemwide interfaces or services that are not restricted to a single domain.
 
