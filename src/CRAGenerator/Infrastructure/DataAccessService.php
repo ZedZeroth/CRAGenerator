@@ -17,7 +17,7 @@ class DataAccessService
         $dtos = array();
         foreach($this->adapters as $adapter)
         {
-            $moreDTOs = (new $adapter())
+            $moreDTOs = $adapter
                 // Populate the $rows property with the CSV row entities
                 ->setRows()
                 // Build DTOs from each row entity

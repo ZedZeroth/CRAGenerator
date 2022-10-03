@@ -4,6 +4,7 @@ namespace CRAGenerator\Domain\Trade\DataAccess;
 
 // This adapter converts the "LBC" CSV into an array of universal TradeDTOs
 
+use Exception;
 use CRAGenerator\Infrastructure\DataAdapterInterface;
 use CRAGenerator\Infrastructure\ReadCSVService;
 
@@ -29,7 +30,7 @@ class TradeDataAdapter_LBC implements DataAdapterInterface
             } else if ($row['trade_type'] == 'ONLINE_BUY') {
                 $userame = $row['seller'];
             } else {
-                new Exception('Trade neither SELL or BUY!');
+                throw new Exception('Trade neither SELL or BUY!');
             }
 
             array_push(
