@@ -25,7 +25,7 @@ Mapped from the transaction data of each payment.
 
 A series of risk scores generated for each customer from all of the above data.
 
-## 2. Layers withn each domain
+## 2. Layers (within each domain)
 
 ### 2.1. Core Layer
 
