@@ -37,7 +37,7 @@ Within each domain the BusinessLogic folder contains the model class, its factor
 
 #### 2.2.1. UserInterface ("client" or "presentation" layer) [not yet implemented]
 
-Classes for user interactions and any services for interacting with the BusinessLogic core.
+Classes for user interactions and any services for interacting with the BusinessLogic core. This includes the generator of HTML representations of each customer's risk assessment/scores.
 
 #### 2.2.2. DataAccess ("persistence" layer)
 
