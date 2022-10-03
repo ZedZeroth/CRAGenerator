@@ -23,7 +23,7 @@ Mapped from the transaction data of each payment.
 
 #### 1.4. (Risk) Assessments [not yet implemented]
 
-Generated for each customer from all of the above.
+A series of risk scores generated for each customer from all of the above data.
 
 ## 2. Layers withn each domain
 
