@@ -46,9 +46,9 @@ Classes for reading/writing from the CSV files and any services for interacting 
 
 #### 2.2.3. Testing
 
+Contains a test service file for testing the domain's classes and methods
+
 ## 3. Infrastructure
 
-This folder contains any:
-1. "horizontal" inter-domain interfaces
-2. "vertical" inter-layer services 
+This folder contains any "horizontal" cross-domain interfaces or services.
 
